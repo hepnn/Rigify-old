@@ -1,0 +1,89 @@
+name: rigassat
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.6+7
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  path_provider: ^2.0.9
+  connectivity_plus: ^2.3.0
+  cupertino_icons: ^1.0.2
+  http: ^0.13.4
+  hive_flutter: ^1.1.0
+  firebase_core_platform_interface: 4.5.1
+  flutter_riverpod:
+  json_annotation: ^4.7.0
+  freezed_annotation: ^2.2.0
+  #app icon
+  flutter_launcher_icons: ^0.11.0
+  device_preview: ^1.1.0 #for debug
+  device_preview_screenshot:
+
+  #news feed
+  dart_twitter_api: ^0.5.7+1
+  jiffy: ^5.0.0
+  pull_to_refresh: ^2.0.0
+  timelines: ^0.1.0
+  hive: ^2.2.3
+  convex_bottom_bar: ^3.1.0+1
+
+  #splash
+  flutter_native_splash: ^2.2.15
+
+  animated_custom_dropdown: ^1.2.2
+
+  # ads
+  google_mobile_ads:
+
+  url_launcher:
+
+  hooks_riverpod:
+  logging:
+  in_app_purchase:
+
+  #
+  firebase_core: ^1.20.0
+  firebase_crashlytics: ^2.8.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  hive_generator:
+  build_runner:  
+  freezed:
+  json_serializable:
+
+  flutter_lints: ^1.0.0
+
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  adaptive_icon_foreground: "assets/icon/icon_foreground.png"
+  adaptive_icon_background: "assets/icon/icon_background.png"
+
+flutter_native_splash: #flutter pub run flutter_native_splash:create
+  color: "#6096ba"
+  # image: assets/splash/text.png // fix this , text is massive and does not fit inside circle
+
+  # android_12:
+  #   image: assets/splash/text.png
+
+
+flutter:
+
+  uses-material-design: true
+  generate: true
+

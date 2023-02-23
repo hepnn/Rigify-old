@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "929900450108",
+    "project_id": "rigify",
+    "storage_bucket": "rigify.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929900450108:android:304e9c9f89f323b71d8e39",
+        "android_client_info": {
+          "package_name": "com.yamawagi.rigify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929900450108-sa3rvfafnbgpqd4sakd6fvuq0da5mn0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5jCiSCT_ErPPe4KWvl97Ru_kKf_VcVBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929900450108-sa3rvfafnbgpqd4sakd6fvuq0da5mn0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
