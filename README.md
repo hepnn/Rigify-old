@@ -1,6 +1,6 @@
 # Rigify - Public Transit Routes and Timetables
 
-GTFS data fetching and converting it into a user friendly UI. 
+GTFS data fetching and converting it into a user friendly UI. Built using Flutter Framework
 
 [<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"
       alt="Get it on Google Play"
