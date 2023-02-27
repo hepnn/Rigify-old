@@ -72,3 +72,5 @@ To enable fetching from Twitter, add:
 
 - More language support
 
+- Ticket reader using nfc (Reversing the hex data from mifare UL cards) 
+
