@@ -46,6 +46,7 @@ While this app is developed for a specific data feed, it can be easily modified 
 - In App Purchases
     - An upload to play store is first required in order to properly display legitimate Ads, afterwards change the <b>productId</b> value in `lib\IAP\ad_removal_state.gen.dart` to your own ID.
 - Setup your own API keys, references below.
+- You will have to run `flutter gen-l10n` to generate l10n
 
 ## Env values
 
